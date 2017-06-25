@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/stm32L432kc-nucleo32-demo/
+
+# STM32CubeMX assembly files
+*.s
