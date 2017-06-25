@@ -1,4 +1,4 @@
-# SRAM2 Demo on STM32L452KC Nucleo-32 Board
+# SRAM2 Demo on STM32L432KC Nucleo-32 Board
 
 Demo program to show that the problem with STM32L452 running code in SRAM2
 does not affect the STM32L432KC. This demo is designed to run on an
