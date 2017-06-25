@@ -1,13 +1,10 @@
-# stm32L432kc-nucleo32-demo
-
-SRAM2 Demo on STM32L452KC Nucleo-32 Board (no fault)
+# SRAM2 Demo on STM32L452KC Nucleo-32 Board (no fault)
 
 Demo program to show that the problem with STM32L452 running code in SRAM2
 does not affect the STM32L432KC. This demo is designed to run on an
 STM32L432KC Nucleo-32 board.
 
-Overview
-====
+# Overview
 
 This is an Eclipse project generated via STM32CubeMX.  It uses FreeRTOS to 
 spawn two threads.  One thread blinks the green LED on the Nucleo board at
@@ -34,8 +31,7 @@ STM32L432KC.)
 This same code will run fine on the STM32L432KC Nucleo32 board and will
 fail when using an STM32L452CE or STM32L452RE.
 
-Placing Code in SRAM2
-====
+# Placing Code in SRAM2
 
 1. The section "bss2" is defined in the STM32L432RE_FLASH.ld linker script.
 2. Code and data in bss2 is copied to SRAM2 by the
